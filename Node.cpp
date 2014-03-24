@@ -9,7 +9,7 @@ Node::Node()
 {
     m_Data = 0;
     m_pLchild = NULL;
-    m_pRchild = NULL;           
+    m_pRchild = NULL;  
 }
 
 Node::~Node()

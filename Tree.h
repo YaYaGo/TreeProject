@@ -6,8 +6,10 @@ class Tree
 public:
 Tree();
 ~Tree();
+void addNode(int data);
 private:
- 
+Node* m_pRoot;
+
 };
 
 #endif
